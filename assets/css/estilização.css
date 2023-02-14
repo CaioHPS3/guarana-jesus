@@ -5,14 +5,14 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url(/assets/img/capa.webp);
+    background-image: url(/assets/img/capa.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .geral {
-    background-image: url(/assets/img/capa2.jpg);
+    background-image: url(/assets/img/capa2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,9 +23,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    
-    
-
 }
 
 nav ul,
