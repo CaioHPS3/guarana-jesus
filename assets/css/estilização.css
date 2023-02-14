@@ -205,6 +205,10 @@ h1 {
     .geral {
         height: 90%;
     }
+
+    .imagem{
+        margin-top: 50px;
+    }
 }
 
 @media (min-width:1440px) {
