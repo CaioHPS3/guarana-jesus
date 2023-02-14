@@ -5,24 +5,27 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image:url('/assets/img/capa.png');
+    background-image: url('../img/capa.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .geral {
-    background-image: url('/assets/img/capa2.jpg');
+    background-image:url('../img/capa2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
-    width: 80vw;
+    height: 90vh;
+    width: 90vw;
+    background-color: black;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 120px;
 }
 
 nav ul,
@@ -40,20 +43,88 @@ nav a {
     display: block;
     text-decoration: none;
     padding: 8px;
+    padding-right: 15px;
     text-transform: uppercase;
     color: #fff;
-    text-shadow: 2px 1px 1px #ef5ea3;
+    text-shadow: 1px 1px 1px #ef5ea3;
+}
+
+nav a:hover {
+    color: blue;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .logo img {
     display: flex;
+    align-items: center;
     margin-left: 10px;
     width: 100px;
     height: 100px;
+}
+
+p,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    height: calc(90vh - 120px);
+}
+
+.text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 0px #ef5ea3;
+    font-weight: bold;
+}
+
+.text h1 {
+    margin-top: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text p {
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.imagem {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imagem img {
+    width: 200px;
+}
+
+
+.imagem button {
+    margin-top: 50px;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #ef5ea3;
+    border: 1px solid #ef5ea3;
+}
+
+.imagem button:hover{
+    padding: 10px;
+    background-color: blue;
 }
