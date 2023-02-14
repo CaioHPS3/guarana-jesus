@@ -12,7 +12,7 @@ body {
 }
 
 .geral {
-    background-image:url('../img/capa2.png');
+    background-image: url('../img/capa2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -124,7 +124,153 @@ h1 {
     border: 1px solid #ef5ea3;
 }
 
-.imagem button:hover{
+.imagem button:hover {
     padding: 10px;
     background-color: blue;
+}
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 0px;
+}
+
+.mm-line {
+    margin: 3px 0px;
+    height: 3px;
+    background-color: blue;
+}
+
+@media (max-width:845px) {
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:640px) {
+    .text h1 {
+        font-size: 25px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .imagem button {
+        margin-top: 20px;
+        width: 100px;
+        padding: 5px;
+    }
+
+}
+
+@media (max-width:600px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 5%;
+        width: 90%;
+        background-color: #ef5ea3;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo img {
+        margin-left: 40px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:425px) {
+    .conteudo {
+        flex-direction: column;
+    }
+
+    body {
+        height: 150vh;
+    }
+
+    .geral {
+        height: 90%;
+    }
+}
+
+@media (min-width:1440px) {
+    .text p {
+        font-size: 35px;
+
+    }
+
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .imagem img {
+        width: 300px;
+    }
+    header{
+        height: auto;
+    }
+
+    nav ul,
+    nav li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+    }
+    .logo img{
+        width: 150px;
+        height: 150px;
+    }
+    .imagem button{
+        width: 250px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:2000px) {
+    .text p {
+        font-size: 45px;
+
+    }
+
+    .text h1 {
+        font-size: 60px;
+    }
+
+    .imagem img {
+        width: 500px;
+    }
+    header{
+        height: auto;
+    }
+
+    nav ul,
+    nav li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 35px;
+    }
+    .logo img{
+        width: 200px;
+        height: 200px;
+    }
+    .imagem button{
+        width: 300px;
+        font-size: 40px;
+    }
 }

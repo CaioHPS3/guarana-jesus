@@ -7,6 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/logo1.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/estilização.css">
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menuMobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };    
+    </script>
+
     <title>Guaraná jesus</title>
 </head>
 
@@ -16,19 +29,28 @@
             <div class="logo">
                 <img src="./assets/img/icone1.png" alt="">
             </div>
-            <nav class="menu">
-                <ul>
-                    <li class="itens"><a href="#">Home</a></li>
-                    <li class="itens"><a href="#">Produtos</a></li>
-                    <li class="itens"><a href="#">Comunidade</a></li>
-                    <li class="itens"><a href="#">Contatos</a></li>
-                </ul>
-            </nav>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                    </div>
+
+                    <ul>
+                        <li class="itens"><a href="#">Home</a></li>
+                        <li class="itens"><a href="#">Produtos</a></li>
+                        <li class="itens"><a href="#">Comunidade</a></li>
+                        <li class="itens"><a href="#">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <section class="conteudo">
             <div class="text">
                 <h1>Seja jovem divita-se bebeno Guaraná Jesus</h1>
-                <p>Criado em 1927, continua com seu sabor caracteristico, um tom rosado inconfundivel estando presente em 21,3% da mesa dos maranheces. </p>
+                <p>Criado em 1927, continua com seu sabor caracteristico, um tom rosado inconfundivel, estando presente
+                    em 21,3% da mesa dos maranheces. </p>
                 <p>O verdadeiro sabor do Maranhão</p>
             </div>
             <div class="imagem">
