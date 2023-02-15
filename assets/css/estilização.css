@@ -205,7 +205,7 @@ h1 {
         height: 90%;
     }
 
-    .imagem{
+    .imagem {
         margin-top: 50px;
     }
 }
@@ -223,7 +223,8 @@ h1 {
     .imagem img {
         width: 300px;
     }
-    header{
+
+    header {
         height: auto;
     }
 
@@ -234,11 +235,13 @@ h1 {
         padding: 0;
         font-size: 25px;
     }
-    .logo img{
+
+    .logo img {
         width: 150px;
         height: 150px;
     }
-    .imagem button{
+
+    .imagem button {
         width: 250px;
         font-size: 30px;
     }
@@ -257,7 +260,8 @@ h1 {
     .imagem img {
         width: 500px;
     }
-    header{
+
+    header {
         height: auto;
     }
 
@@ -268,11 +272,13 @@ h1 {
         padding: 0;
         font-size: 35px;
     }
-    .logo img{
+
+    .logo img {
         width: 200px;
         height: 200px;
     }
-    .imagem button{
+
+    .imagem button {
         width: 300px;
         font-size: 40px;
     }
